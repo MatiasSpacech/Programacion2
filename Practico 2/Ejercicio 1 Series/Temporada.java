@@ -20,10 +20,12 @@ import java.util.ArrayList;
 
 public class Temporada {
     ArrayList <Episodio> temporadas;
+    String nombreTemporada;
 
     public Temporada (){
         this.temporadas = new ArrayList<Episodio>();
     }
+    
 
     public ArrayList<Episodio> getTemporadas() {
         return temporadas;

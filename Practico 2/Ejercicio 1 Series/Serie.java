@@ -29,10 +29,7 @@ public class Serie {
         this.descripcion = "test";
         this.descripcion = "test";
         this.descripcion = "test";
+        this.temporadas = new ArrayList<Temporada>();
     }
-public static void main(String[] args) {
-    Serie lost = new Serie( "lost");
-    lost.temporadas.get(0)
-    System.out.println(lost.temporadas);
-}
+    public setCalificacion(int numtemporada)
 }
