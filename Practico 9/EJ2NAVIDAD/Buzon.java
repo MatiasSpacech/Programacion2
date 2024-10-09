@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class Buzon extends ElementoBuzon{
     private String nombre;
     private ArrayList<Integer> ninosBuenos;
-    ArrayList<Carta> Cartas;
+    private ArrayList<Carta> Cartas;
     public Buzon(String nombre) {
         this.nombre = nombre;
         this.ninosBuenos = new ArrayList<>();
@@ -16,7 +16,9 @@ public class Buzon extends ElementoBuzon{
         this.nombre = nombre;
     }
     public void addnino(Integer nino){
-        this.ninosBuenos.add(nino);
+        if (!this.ninosBuenos.contains(nino)) {
+            this.ninosBuenos.add(nino);            
+        }
     }
     
     public void addCarta(Carta carta){
