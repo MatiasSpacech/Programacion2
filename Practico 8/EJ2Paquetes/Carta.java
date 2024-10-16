@@ -62,7 +62,9 @@ public class Carta extends ElementoPostal{
     public void setPeso(int peso) {
         this.peso = peso;
     }
-    
+    public void setNumeroTraking(int numeroTraking ){
+        super.numeroTraking = numeroTraking;
+    }
     
     
     

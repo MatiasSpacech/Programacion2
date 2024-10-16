@@ -15,9 +15,8 @@ public abstract class ElementoPostal {
     public int getNumeroTraking() {
         return numeroTraking;
     }
-    public void setNumeroTraking(int numeroTraking) {
-        this.numeroTraking = numeroTraking;
-    }
+    public abstract void setNumeroTraking(int numeroTraking);
+        
     
     
 }

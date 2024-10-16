@@ -49,7 +49,7 @@ public class Combo extends ElementoPostal{
 
     @Override
     public String getRemitente() {
-        return this.elementos.get(0).getRemitente()
+        return this.elementos.get(0).getRemitente();
     }
 
     @Override
