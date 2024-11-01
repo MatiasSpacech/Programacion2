@@ -24,6 +24,9 @@ public class TareaSimple extends Elemento{
         this.accion = accion;
     }
 
+    public int getCantidaTareasSimples() {
+        return 1;
+    }
 
     public double getCosto() {
         return costo;

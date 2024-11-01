@@ -46,6 +46,13 @@ public class TareaCompuesta extends Elemento{
         }
         return sumaMinutos;        
     }   
+    public int getCantidaTareasSimples() {
+        int sumaMinutos= 0;
+        for (Elemento tarea : tareas) {                        
+            sumaMinutos+=          
+        }
+        return sumaMinutos;        
+    }   
 
     public String getEspecialidad() {
         return especialidad;

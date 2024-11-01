@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 public class Directorio extends ElementoSA {
-    private ArrayList<ElementoSA> elementos;
+    protected ArrayList<ElementoSA> elementos;
 
     public Directorio(String nombre) {
         super(nombre);
@@ -60,6 +60,8 @@ public class Directorio extends ElementoSA {
             //    retorno.add(archivoQueCumple);
         }
         //Collections.sort(retorno, Collections.reverseOrder());
+        if (condicion.cumple(this))
+            retorno.add(this);
         return retorno;
     }
 
